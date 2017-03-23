@@ -1,12 +1,9 @@
 
 body {
   color: white;
-  background-color: rgba(126, 180, 241, 0.4)
+  background-color: rgba(126, 180, 241, 0.4);
 }
 
-.container-1{
-  padding: 6%;
-}
 
 .container-head {
   padding: 5%; 
@@ -19,9 +16,19 @@ body {
 
 }
 
+.container-top {
+  padding: 5%; 
+  text-align: center;
+  color: #f8f8f8;
+  background-image: url("images/cycle_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+
+}
+
 .container-fluid {
-  background-color: rgba(126, 180, 241, 0.4)
-  padding: 4%;
+  padding: 6%;
 }
 
 
