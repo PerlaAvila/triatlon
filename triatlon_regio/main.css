@@ -5,25 +5,16 @@ body {
 }
 
 
-.container-head {
-  padding: 5%; 
+.container-head { 
   text-align: center;
   color: #f8f8f8;
-  background-image: url("images/run_1.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 10%;
-
+  padding: 4%;
 }
 
-.container-top {
-  padding: 5%; 
+.container-1 {
   text-align: center;
   color: #f8f8f8;
-  background-image: url("images/cycle_2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 10%;
+  padding: 4%;
 
 }
 
@@ -31,11 +22,39 @@ body {
   padding: 6%;
 }
 
+.title, .img-rounded {
+    display: inline-block;
+}
+.imgcont{
+  position: relative;
+}
+.title-1 {
+   position: absolute; 
+   text-transform: uppercase;
+   bottom: 0;
+   padding-top:20px;
+   padding-left: .85%;
+  font-size: 1.25em;
+  font-weight: 200;
+}
+
+
+#bullet {
+    width: 35px;
+    height: 35px;
+}
+
+#bullet-2 {
+  height: 45px;
+  width: auto;
+}
+
 
 
 h1,
 h2,
 h3,
+h4,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
